@@ -7,14 +7,14 @@ if __name__ != "__main__":
     ip = "127.0.0.1"
     user = "root"
     password = ""
-    db_name = "NeutronBrain"
+    db_name = "MY_DB"
     try:
         data_base = MySQLdb.connect(host=ip, user=user, passwd=password)
     except Exception as err:
         print("Cannot connect to mysql database")
      
      
-db_name = "NeutronBrain"
+db_name = "MY_DB"
 def Connect(db_name = db_name):
     MySQLdb.connect(host=ip, user=user, passwd=password)
     
